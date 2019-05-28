@@ -1,0 +1,251 @@
+<!--
+  Generated template for the PrePromoModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>*  Promos  *</ion-title>
+  </ion-navbar>
+
+  <button ion-button  medium (click)="closeModal()">
+      Terminar Captura
+    </button>
+
+</ion-header>
+
+
+<ion-content padding>
+ 
+
+<ion-card>
+    <ion-card-header>
+     <h3>9991</h3>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-item-group *ngFor="let item1 of promo91">
+            <h2  class="companyname" text-wrap>
+                
+              </h2>
+            <span>
+                <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                Clave: {{item1.PM_CLAVE_PRODUCTO}} </p>
+              <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                 Cantidad X Promo: {{item1.PM_CANTIDAD}} </p>
+               <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+               Precio: ${{item1.PM_PRECIOXUNIDAD_PROMO}} </p>
+
+               
+            </span>
+    </ion-item-group>
+    <button ion-button round small (click)="showPrompt(promo1 = 'promo1')">
+        <ion-icon name="md-add-circle"></ion-icon>
+      </button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-card-header>
+       <h3>9992</h3>
+      </ion-card-header>
+      
+      <ion-card-content>
+          <ion-item-group *ngFor="let item2 of promo92">
+              <h2  class="companyname" text-wrap>
+                
+                </h2>
+              <span>
+                  <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                  Clave: {{item2.PM_CLAVE_PRODUCTO}} </p>
+                <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                   Cantidad X Promo: {{item2.PM_CANTIDAD}} </p>
+                 <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                 Precio: ${{item2.PM_PRECIOXUNIDAD_PROMO}} </p>
+  
+                
+                  
+              </span>
+        
+      </ion-item-group>
+
+        <button ion-button round small (click)="showPrompt(promo2 = 'promo2')">
+          <ion-icon name="md-add-circle"></ion-icon>
+        </button>
+
+      
+      </ion-card-content>
+    </ion-card>
+
+
+    <ion-card>
+        <ion-card-header>
+         <h3>9993</h3>
+        </ion-card-header>
+        
+        <ion-card-content>
+            <ion-item-group *ngFor="let item3 of promo93">
+                <h2  class="companyname" text-wrap>
+                  
+                  </h2>
+                <span>
+                    <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                    Clave: {{item3.PM_CLAVE_PRODUCTO}} </p>
+                  <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                     Cantidad X Promo: {{item3.PM_CANTIDAD}} </p>
+                   <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                   Precio: ${{item3.PM_PRECIOXUNIDAD_PROMO}} </p>
+    
+                   
+                </span>
+          
+        </ion-item-group>
+        <button ion-button round small (click)="showPrompt(promo3 = 'promo3')">
+            <ion-icon name="md-add-circle"></ion-icon>
+          </button>
+        </ion-card-content>
+      </ion-card>
+
+
+
+      <ion-card>
+          <ion-card-header>
+           <h3>9994</h3>
+          </ion-card-header>
+          
+          <ion-card-content>
+              <ion-item-group *ngFor="let item4 of promo94">
+                  <h2  class="companyname" text-wrap>
+                
+                    </h2>
+                  <span>
+                      <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                      Clave: {{item4.PM_CLAVE_PRODUCTO}} </p>
+                    <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                       Cantidad X Promo: {{item4.PM_CANTIDAD}} </p>
+                     <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                     Precio: ${{item4.PM_PRECIOXUNIDAD_PROMO}} </p>
+      
+                     
+                  </span>
+            
+          </ion-item-group>
+          <button ion-button round small (click)="showPrompt(promo4 = 'promo4')">
+              <ion-icon name="md-add-circle"></ion-icon>
+            </button>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+            <ion-card-header>
+             <h3>9995</h3>
+            </ion-card-header>
+            
+            <ion-card-content>
+                <ion-item-group *ngFor="let item5 of promo95">
+                    <h2  class="companyname" text-wrap>
+                       
+                      </h2>
+                    <span>
+                        <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                        Clave: {{item5.PM_CLAVE_PRODUCTO}} </p>
+                      <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                         Cantidad X Promo: {{item5.PM_CANTIDAD}} </p>
+                       <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                       Precio: ${{item5.PM_PRECIOXUNIDAD_PROMO}} </p>
+        
+                     
+              
+            </ion-item-group>
+            <button ion-button round small (click)="showPrompt(promo5 = 'promo5')">
+                <ion-icon name="md-add-circle"></ion-icon>
+              </button>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card>
+              <ion-card-header>
+               <h3>9996</h3>
+              </ion-card-header>
+              
+              <ion-card-content>
+                  <ion-item-group *ngFor="let item6 of promo96">
+                      <h2  class="companyname" text-wrap>
+                    
+                        </h2>
+                      <span>
+                          <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                          Clave: {{item6.PM_CLAVE_PRODUCTO}} </p>
+                        <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                           Cantidad X Promo: {{item6.PM_CANTIDAD}} </p>
+                         <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                         Precio: ${{item6.PM_PRECIOXUNIDAD_PROMO}} </p>
+          
+                        
+                
+              </ion-item-group>
+              <button ion-button round small (click)="showPrompt(promo6 = 'promo6')">
+                  <ion-icon name="md-add-circle"></ion-icon>
+                </button>
+              </ion-card-content>
+            </ion-card>
+
+            <ion-card>
+                <ion-card-header>
+                 <h3>9997</h3>
+                </ion-card-header>
+                
+                <ion-card-content>
+                    <ion-item-group *ngFor="let item7 of promo97">
+                        <h2  class="companyname" text-wrap>
+                           
+                          </h2>
+                        <span>
+                            <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                            Clave: {{item7.PM_CLAVE_PRODUCTO}} </p>
+                          <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                             Cantidad X Promo: {{item7.PM_CANTIDAD}} </p>
+                           <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+                           Precio: ${{item7.PM_PRECIOXUNIDAD_PROMO}} </p>
+            
+                        
+                  
+                </ion-item-group>
+                <button ion-button round small (click)="showPrompt(promo7 = 'promo7')">
+                    <ion-icon name="md-add-circle"></ion-icon>
+                  </button>
+                </ion-card-content>
+              </ion-card>
+
+
+
+  <ion-card>
+    <ion-card-header>
+     <h3>9998</h3>
+    </ion-card-header>
+    
+    <ion-card-content>
+        <ion-item-group *ngFor="let item8 of promo98">
+            <h2  class="companyname" text-wrap>
+               
+              </h2>
+            <span>
+                <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                Clave: {{item8.PM_CLAVE_PRODUCTO}} </p>
+              <p> <ion-icon name="logo-usd" class="iconClass"> </ion-icon> 
+                 Cantidad X Promo: {{item8.PM_CANTIDAD}} </p>
+               <p> <ion-icon name="md-pricetags" class="iconClass"> </ion-icon> 
+               Precio: ${{item8.PM_PRECIOXUNIDAD_PROMO}} </p>
+
+              
+      
+    </ion-item-group>
+    <button ion-button round small (click)="showPrompt(promo8 = 'promo8')">
+        <ion-icon name="md-add-circle"></ion-icon>
+      </button>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

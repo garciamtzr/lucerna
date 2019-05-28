@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Productos de ruta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  
+  <ion-item *ngFor="let item of inventario">
+    <ion-row>
+      <ion-col col-12 class="rowCol">
+    
+        <ion-col class="dataCol">
+          <ion-row>
+            <ion-col col-12>
+              <span>
+                  <p><ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                  Clave: {{item.IN_CLAVE}} </p>
+
+                 <p><ion-icon name="filing" class="iconClass"></ion-icon>
+                  Cantidad: {{item.IN_CANTIDAD}} Piezas</p>
+              </span>
+            </ion-col>
+             
+          </ion-row>
+        </ion-col>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+</ion-content>

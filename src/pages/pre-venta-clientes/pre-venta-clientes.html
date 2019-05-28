@@ -1,0 +1,45 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Clientes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  <ion-searchbar type="tel"  (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-item *ngFor="let item of items">
+    <ion-row>
+      <ion-col col-2>
+
+      </ion-col>
+      <ion-col col-10 class="rowCol">
+        <h2 (click)="carritoVentas($event, item)" class="companyname" text-wrap>
+          {{item.CL_NOMNEGOCIO}}
+        </h2>
+        <ion-col class="dataCol">
+          <ion-row>
+            <ion-col col-12>
+              <span>
+                <ion-icon name="ios-grid-outline" class="iconClass"> </ion-icon>
+                {{item.CL_CLIENTE}}
+               <h2>Tipo de Venta:</h2> {{item.CL_TIPOV}}
+              </span>
+            </ion-col>
+            <ion-col col-12>
+              <span>
+                <ion-icon name="contact" class="iconClass"> </ion-icon>
+                {{item.CL_PUNTOVENTA}}
+              </span>
+            </ion-col>
+            <ion-col col-12 text-wrap>
+              <ion-icon name="pin" class="iconClass"></ion-icon>
+              {{item.CL_DIRNEGOCIO}}, {{item.CL_COLNEGOCIO}}
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+</ion-content>

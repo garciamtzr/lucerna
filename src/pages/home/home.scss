@@ -1,0 +1,80 @@
+page-home {
+    ion-content{
+        background: white;
+        color: color($colors, light);
+
+        ion-card {
+            color: color($colors, light);
+        }
+
+        .header1 {
+            text-align: left;
+            color: color($colors, greycolor);
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .text-content1{
+            text-align: left;
+            color: color($colors, greycolor);
+            font-size: 20px;
+            margin-bottom: 35px;
+            margin-top: 0px;
+        }
+
+        .card1 {
+            border: none !important;
+            border-radius: 5%;
+            background: rgba(145, 9, 9, 0.781);
+            height: 110px;
+            margin-bottom: 10px !important;
+        }
+
+        
+
+        .card-header{
+            color: color($colors, light);
+            text-align: left !important;
+            font-size: 1.5em !important;
+            font-weight: 500;
+            padding-top: 0px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .card-header-md.hello {
+            font-size: 25px !important;
+            font-weight: 900 !important;
+        }
+
+        .card-md p{
+            color: color($colors, light);
+            text-align: left !important;
+            font-size: 1.7rem !important;
+            margin-bottom: 10px !important;
+        }
+
+        .button{
+            color: #070707 !important;
+            width: 50%;
+            margin: 0 auto !important;
+            text-align: left !important;
+            border: 2px solid white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: initial;
+        }
+
+        .btn{
+            background: rgba(238, 192, 41, 0.8);
+        }
+
+        
+
+        .icon-md {
+            font-size: 35px;
+            text-align: left !important;
+            margin-top: 10px !important;
+            margin-left: 10px !important;
+        }
+    }
+
+}
